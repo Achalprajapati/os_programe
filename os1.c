@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-void nam(int no,int RemainTime[10],int CompTime,int Ariv_Time[10],int Bur_Time[10]);
+void achal(int no,int RemainTime[10],int CompTime,int Ariv_Time[10],int Bur_Time[10]);
 
 int main()
 {
@@ -75,13 +75,13 @@ int main()
         }
     }
     
-    nam(no,RemainTime,CompTime,Ariv_Time,Bur_Time);
+    achal(no,RemainTime,CompTime,Ariv_Time,Bur_Time);
     
     return 0;
 }
 
     
-    void nam(int no,int RemainTime[10],int CompTime,int Ariv_Time[10],int Bur_Time[10]){
+    void achal(int no,int RemainTime[10],int CompTime,int Ariv_Time[10],int Bur_Time[10]){
     
     float Avg_Wait,AvgTur_Arou_Time;
     int i,j,n=no,Temp,BTime[20],Proc_No[20],WTime[20],Tur_Ar_Time[20],Total=0,loc;
